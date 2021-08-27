@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Select and send gifts to your family and friends in other countries">
+    <meta name="keywords" content="gift, present, birthday, wedding, gratitude">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container header-container">
+            <div class="header-inner">
+                <div class="header-logo"><a href="../index.html"><img src="../images/anastasiia-chepinska-4zSQchAUm1k-unsplash-removebg-preview.jpeg"></a></div>
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- nav -->
+    <nav>
+        <div class="container nav-container">
+            <ul class="navbar">
+                <li><a href="../catalog_wedding/index.html" target="_blank">Wedding</a></li>
+                <li><a href="../catalog_birthday/index.html" target="_blank">Birthday</a></li>
+                <li><a href="../catalog_thanks/index.html" target="_blank">Gratitude</a></li>
+                <li><a href="../user_review/index.html" target="_blank">Customer Review</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /nav -->
+
+    <!-- main -->
+    <section class="main">
+        <div class="container">
+            <main>
+                <form action="" class="checkout-form" autocomplete="off">
+                <div>
+                    <h2>Your Information</h2>
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="fname" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="address">Address</label>
+                        <input type="text" name="address" id="address" required>
+                        <br>
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" required>
+                        <br>
+                        <label for="state">State/Prefecture</label>
+                        <input type="text" name="state" id="state" required>
+                        <br>
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country" required>
+                        <br>
+                        <label for="zip">Zip Code</label>
+                        <input type="text" name="zip" id="zip" required>
+                    </div>
+                </div>
+                <div>
+                    <h2>Payment</h2>
+                    <div>
+                        <label for="name_on_card">Name on Card</label>
+                        <input type="text" name="name_on_card" id="name_on_card" required>
+                    </div>
+                    <div>
+                        <label for="cardnumber">Credit Card Number</label>
+                        <input type="text" name="cardnumber" id="cardnumber" required>
+                    </div>
+                    <div>
+                        <label for="expdate">Expiration Date</label>
+                        <select name="expmonth" id="expdate" required>
+                            <option value="1">Jan</option>
+                            <option value="2">Feb</option>
+                            <option value="3">Mar</option>
+                            <option value="4">Apr</option>
+                            <option value="5">May</option>
+                            <option value="6">Jun</option>
+                            <option value="7">Jul</option>
+                            <option value="8">Aug</option>
+                            <option value="9">Sep</option>
+                            <option value="10">Oct</option>
+                            <option value="11">Nov</option>
+                            <option value="12">Dec</option>
+                        </select>
+                        <select name="expyear" id="expdate" required>
+                            <option value="21">2021</option>
+                            <option value="22">2022</option>
+                            <option value="23">2023</option>
+                            <option value="24">2024</option>
+                            <option value="25">2025</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="cvv" style="font-size: 19px;">CVV</label>
+                        <input type="text" name="cvv" id="cvv" required>
+                    </div>
+                </div>
+                <div>
+                    <h2>Recipient's Information</h2>
+                    <div>
+                        <label for="rname">Full Name</label>
+                        <input type="text" name="name" id="rname" required>
+                    </div>
+                    <div>
+                        <label for="remail">Email</label>
+                        <input type="email" name="email" id="remail" required>
+                    </div>
+                    <div>
+                        <label for="raddress">Address</label>
+                        <input type="text" name="address" id="raddress" required>
+                        <br>
+                        <label for="rcity">City</label>
+                        <input type="text" name="city" id="rcity" required>
+                        <br>
+                        <label for="rstate">State/Prefecture</label>
+                        <input type="text" name="state" id="rstate" required>
+                        <br>
+                        <label for="rcountry">Country</label>
+                        <input type="text" name="country" id="rcountry" required>
+                        <br>
+                        <label for="rzip">Zip Code</label>
+                        <input type="text" name="zip" id="rzip" required>
+                        <br>
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input type="button" onclick="location.href='#'" name="submit" value="Confirm" id="btn">
+                </div>
+                </form>
+            </main>
+        </div>
+    </section>
+    <!-- /main -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="box link-list">
+                <ul class="link-list">
+                    <li><a href="../catalog_wedding/index.html">Wedding</a></li>
+                    <li><a href="../catalog_birthday/index.html">Birthday</a></li>
+                    <li><a href="../catalog_thanks/index.html">Gratitude</a></li>
+                    <li><a href="../user_review/index.html">Customer Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+</body>
+</html>
